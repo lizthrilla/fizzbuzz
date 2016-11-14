@@ -4,18 +4,18 @@
 
 document.addEventListener('DOMContentLoaded', main)*/
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 16; i++) {
 
   //if (i % 3 === 0 && i % 5 === 0) {
     //console.log('fizzbuzz')
   //}
-  if(i % 5 === 0 === 3 % i) {
-    console.log('fizzbuzz')
-  }
-  else if (i % 3 === 0) {
+  if(i % 3 === 0) {
     console.log('fizz')
   }
-  else (
-    console.log(i)
-  )
+  else if (i % 5 === 0) {
+    console.log('buzz')
+  }
+  else {
+    console.log (i)
+  }
 }
