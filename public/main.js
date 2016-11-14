@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', main)*/
 
-for (let i = 0; i < 16; i++) {
+for (let i = 0; i <= 100; i++) {
   let out = ''
   if (i % 3 === 0) out += 'fizz'
   if (i % 5 === 0) out += 'buzz'
